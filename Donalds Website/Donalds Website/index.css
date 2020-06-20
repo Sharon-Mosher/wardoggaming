@@ -1,0 +1,159 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+} 
+
+.container {
+    width: 800px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: olivedrab;
+    }
+    
+  .container h1{
+    width: 100%;
+    font-family: 'Metal Mania', cursive;
+    font-size: 60px;
+    Display: flex;
+    margin-left:2em;
+    color: crimson;
+  }
+    
+  .container header nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container header nav a {
+    margin: 0;
+    border: 5px solid crimson;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 1em;
+    background: crimson;
+  }
+
+  .container img{
+    width: 80%;
+  }
+ 
+
+.footer-content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+  }
+.footer-content h3{
+  font-family: 'Metal Mania', cursive;
+  font-size: 1.5em;
+  margin: 1em;
+} 
+.footer-content nav{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  margin: 1em;
+}
+
+.footer-content nav a{
+  margin: 0;
+  border: 5px solid crimson;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 1em;
+  background: crimson;
+}
+.copyright{
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  justify-items: center;
+}
+@media(max-width: 600px){
+  .container {
+    width: 500px;
+    border: 2px solid crimson;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header h1{
+   width: 30%;
+   font-family:"Metal Mania", Times, serif;
+   font-size: 1em;
+   Display: flex;
+  }
+
+  .header header nav {
+    width: 50%;
+    font-family:"Metal Mania", Times, serif;
+    font-size: .5em;
+    padding: 1em;
+  }
+  .header header nav a {
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    font-family:"Metal Mania", Times, serif;
+    font-size: .1em;
+    padding: .1em;
+  }
+  .About {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .About h2{
+   width: 30%;
+   font-family:"Metal Mania", Times, serif;
+   font-size: 1em;
+  }
+  .About p {
+    width: 30%;
+    font-family: "Metal Mania", Times, serif;
+    font-size: .8em;
+  }
+  .About nav{
+    width: 10%;
+    font-family:"Metal Mania", Times, serif;
+    font-size: .5em;
+    padding: .5em;
+    justify-content: center;
+  }
+    
+}
