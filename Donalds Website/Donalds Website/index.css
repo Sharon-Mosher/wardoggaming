@@ -60,7 +60,17 @@ border: 0;
   .container img{
     width: 80%;
   }
- 
+  .about img {
+    width: 30%;
+    margin-right: 1em;
+  }
+
+   .about p {
+    width: 30%;
+    display: flex;
+    font-family: "Comic Sans", cursive;
+    font-size: 1em;   
+  }
 
 .footer-content{
   width: 100%;
